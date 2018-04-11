@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	direction:rtl;
+	background-color:#c3d9fa;
+	}
+
+#wrapper {
+	width:1000px;
+	background-color:#FFF;
+	margin:auto;
+	}
+	
+/* nav bar 1 */
+
+#nav1 {
+	background-image:url(../images/nav1-back.png);
+	height:50px;
+	background-repeat:repeat-x;
+	}
+#home {
+	width:48px;
+	height:48px;
+	float:right;
+	padding:1px 5px 1px 0px ;
+	}
+/* soial link */
+
+#soiallink {
+	float:left;
+	padding:2px 0px 0px 5px ;
+}
+
+/* header */
+
+#header {
+	background-image:url(../images/h-back.png);
+	height:243px;
+	background-repeat:repeat-x;
+	}
+
+#hr {
+	background-image:url(../images/h-left.png);
+	height:200px;
+	width:385px;
+	float:right;
+	padding:5px 5px 0px 0px;
+	}
+	
+#hl {
+	background-image:url(../images/h-r.png);
+	height:236px;
+	width:376px;
+	float:left;
+	padding:0px 0px 0px 5px;
+}
+
+/* navbar2 */
+
+#nav2 {
+	background-image:url(../images/nav2-back.png);
+	width:1000px;
+	height:90px;
+	background-repeat:no-repeat;
+}
+
+#nav2 ul li {
+	float:right;
+	padding:3px 5px 0px 0px;
+}
+
+#nav2 ul li a {
+	display:block;
+	padding:5px 5px 0px 20px ;
+	text-decoration:none;
+	font-size:25px;
+	color:#06F;
+	font-family:Tahoma;
+}
+
+#nav2 ul li a:hover {
+	background-color:#009;
+	color:#FFF;
+}
+
+/* content */ 
+
+#con {
+	width:1000px;
+}
+
+
+#con1 {
+	background-image:url(../images/con1.png);
+	height:265px;
+	width:815px;
+	background-repeat:no-repeat;
+	margin:auto;
+}
+
+.h1w {
+	height:50px;
+	font-size:25px ;
+	font-style:bold;
+	padding:10px 30px 0px 0px ;
+	color:#00C;
+	
+	}
+	
+.pra1 {
+	width:800px;
+	height:580px;
+	font-size:18px;
+	color:#03C;
+	padding:5px 5px 0px 0px;
+}
+
+
+/* content-2 */
+
+#con2 {
+	width:800px;
+	height:230px;
+	margin:auto;
+}
+
+#bnr1 {
+	background-image:url(../images/con2.png);
+	width:250px;
+	height:220px;
+	background-repeat:no-repeat;
+	float:right;
+	}
+
+#bnr2{
+	background-image:url(../images/con2.png);
+	width:250px;
+	height:220px;
+	background-repeat:no-repeat;
+	float:left;
+	}
+
+#bnr3{
+	background-image:url(../images/con2.png);
+	width:250px;
+	height:220px;
+	background-repeat:no-repeat;
+	margin:auto ;
+	}
+	
+/* footer */
+
+#footer {
+	background-image:url(../images/f-back.png);
+	height:61px;
+	background-repeat:repeat-x;
+	}
+
+#footer p {
+	text-decoration:none;
+	font: Tahoma;
+	color:#009;
+	font-size:18px;
+	padding:15px 100px 0px 0px ;
+	}
+
+#footer a {
+			text-decoration:none;
+}
+
+#footer a:hover {
+		color: #F00;
+	font-size:18px;
+}
+	
+	
